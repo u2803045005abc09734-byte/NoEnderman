@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "endit",
+  "version": "${version}",
+  "name": "Endit!",
+  "description": "A server-side mod that lets operators change the End spawn platform position and prevents Endermen from spawning in the End dimension.",
+  "authors": ["Team Chorus", "YeoXuHang", "26.3 port project"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/endit",
+    "issues": "https://github.com/ChorusTeam/Endit/issues",
+    "repo": "https://github.com/ChorusTeam/Endit"
+  },
+  "license": "LGPL-3.0-only",
+  "icon": "assets/endit/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.yeoxuhang.endit.EnditFabric"]
+  },
+  "mixins": ["endit.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": "*",
+    "minecraft": "26.3",
+    "java": ">=25"
+  }
+}

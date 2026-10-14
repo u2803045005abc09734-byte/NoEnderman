@@ -1,0 +1,6 @@
+{
+  "endit.command.success": "End spawn platform set to %s, %s, %s.",
+  "endit.command.ycoordinate": "The Y coordinate must be between 2 and 257.",
+  "endit.command.outofworld": "That position is outside the End world border or the End dimension is unavailable.",
+  "endit.command.failed": "Could not save the End spawn position: %s"
+}
